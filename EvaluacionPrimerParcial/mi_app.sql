@@ -23,7 +23,7 @@ CREATE TABLE contacto (
 );
 GO
 
--- Insertar un usuario administrador inicial (contraseña encriptada en PHP)
+-- Insertar un usuario administrador inicial
 INSERT INTO usuarios (usuario, password, rol) 
 VALUES ('admin', '*5Migente_2025\\', 'admin');
 GO
